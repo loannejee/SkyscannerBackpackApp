@@ -35,6 +35,14 @@
     }
   }
 
+  &__main > input {
+    padding-bottom: 50px;
+  }
+
+  &__main > div {
+    padding-bottom: 25px;
+  }
+
   &__heading {
     margin-bottom: $bpk-spacing-sm;
   }
@@ -42,4 +50,5 @@
   &__text {
     margin-bottom: $bpk-spacing-sm;
   }
+
 }

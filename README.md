@@ -5,9 +5,9 @@
 > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 > for more usage information.
 
-# [_Put your project name here_]
+# :date: Flight Schedule
 
-[_Add a brief description of your project here._]
+This simple web app utilizes the Skyscanner Backpack library to add a calendar feature for selecting flight date and automated testing with React. 
 
 ## npm script commands
 
