@@ -1,3 +1,4 @@
+// Combine Calendar code into App.js
 import React, { Component } from 'react';
 import { BpkCode } from 'bpk-component-code';
 import BpkButton from 'bpk-component-button';
@@ -60,8 +61,10 @@ const daysOfWeek = [
 // Convert functional to class component:
 export default class App extends Component {
   constructor () {
+    // Inherit parent attibutes and methods:
     super();
 
+    // CALENDAR_SELECTION_TYPE.single because just selecting single date; not range:
     this.state = {
       selectionConfiguration: {
         type: CALENDAR_SELECTION_TYPE.single,
