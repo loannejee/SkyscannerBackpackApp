@@ -84,10 +84,11 @@ export default class App extends Component {
       <div className={c('App')}>
       <header className={c('App__header')}>
         <div className={c('App__header-inner')}>
-          <BpkText tagName="h1" textStyle="xxl" className={c('App__heading')}>Reservation Date</BpkText>
+          <BpkText tagName="h1" textStyle="xxl" className={c('App__heading')}>Flight Schedule</BpkText>
         </div>
       </header>
       <main className={c('App__main')}>
+        {/* Remove <BpkInput /> because we just want to select date from calendar*/}
         <div>
           <BpkCalendar
             id='calendar'
